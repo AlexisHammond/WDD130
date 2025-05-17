@@ -64,3 +64,15 @@ h4 {
 h2 {
     color: #f4ffff;
 }
+p {
+    color: #f4ffff;
+}
+.logo {
+    width: 80px;
+}
+.icon {
+    width: 80px;
+}
+#hero-img {
+    width: 100%;
+}
