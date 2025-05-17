@@ -27,7 +27,8 @@ body {
     background-color: #006ba6;
 }
 header {
-    background-color: #006ba6;
+    background-color: #ead2ac;
+;
 }
 
 .book, .join {
@@ -58,5 +59,8 @@ h4 {
     color: #f4ffff;
 }
 .msg h2 {
+    color: #f4ffff;
+}
+h2 {
     color: #f4ffff;
 }
