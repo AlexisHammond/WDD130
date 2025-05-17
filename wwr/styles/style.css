@@ -6,6 +6,7 @@ nav a{
     text-align: center;
     background-color: #ead2ac;
     color: #006ba6;
+    text-decoration: none;
 }
 nav a:hover {
     background-color: #91c4f2;
@@ -34,6 +35,7 @@ header {
 .book, .join {
     background-color: #006ba6;
     color: #91c4f2;
+    text-decoration: none;
 }
 .book:hover, .join:hover {
     background-color: #ead2ac;
@@ -48,9 +50,16 @@ footer {
 }
 footer a {
     color: #006ba6;
+    text-decoration: none;
 }
 footer a:hover {
     color: #91c4f2;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
 }
 .home-title {
     color: #f4ffff;
