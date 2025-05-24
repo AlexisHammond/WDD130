@@ -23,6 +23,7 @@ main section {
 }
 #background {
     height: 725px;
+    background-color: #ead2ac;
 }
 body {
     background-color: #006ba6;
