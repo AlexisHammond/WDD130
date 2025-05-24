@@ -59,6 +59,7 @@ header {
 }
 .msg {
     background-color: #006ba6;
+    line-height: 1.5em;
 }
 footer {
     background-color: #ead2ac;
