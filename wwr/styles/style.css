@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Knewave&family=Reenie+Beanie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Knewave&family=Reenie+Beanie&display=swap');
 
 #content {
     max-width: 1600px;
     margin: 0 auto;
-    font-family: knewave, "reenie beanie", Helvetica;
+    font-family: "Covered By Your Grace", knewave, "reenie beanie";
 }
 nav a{
     text-align: center;
@@ -44,7 +44,6 @@ header {
     background-color: #ead2ac;
     font-family: Knewave, "reenie beanie", Helvetica;
 }
-
 .book, .join {
     background-color: #006ba6;
     color: #91c4f2;
@@ -74,7 +73,6 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }
-
 .msg h2 {
     color: #f4ffff;
 }
