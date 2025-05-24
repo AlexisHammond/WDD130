@@ -54,8 +54,8 @@ header {
     font-family: Knewave, "reenie beanie", Helvetica;
 }
 .book, .join {
-    background-color: #006ba6;
-    color: #91c4f2;
+    background-color: #ead2ac;
+    color: #f4ffff;
     text-decoration: none;
     font-family: "reenie beanie", "Covered By Your Grace", Knewave;
     font-size: 18px;
@@ -64,8 +64,8 @@ header {
     border-radius: 5px;
 }
 .book:hover, .join:hover {
-    background-color: #ead2ac;
-    color: #f4ffff;
+    background-color: #006ba6;
+    color: #91c4f2;
 }
 .msg {
     background-color: #006ba6;
