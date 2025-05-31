@@ -140,7 +140,8 @@
 .green5 { 
   width: 133px; 
   height: 133px; 
-  background-color: green; 
+  background-color: green;
+  float: left;
 
 } 
 .yellow5 {
