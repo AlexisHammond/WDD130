@@ -99,6 +99,7 @@
   height: 400px;
   display: grid;
   grid-template-columns: 300px 300px;
+  grid-template-rows: 33% 33% 33%;
 }
 .red4 {
   width: 300px; 
@@ -117,12 +118,14 @@
   height: 33%; 
   background-color: gold; 
   grid-column: 2/2;
+  grid-row: 2/3;
 } 
 .blue4 {
   width: 300px; 
   height: 33%; 
   background-color: blue; 
   grid-column: 2/2;
+  grid-row: 3/3;
 } 
 /* Activity 5 styles */ 
 .content5 {
