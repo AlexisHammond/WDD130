@@ -54,11 +54,15 @@
   width: 100px; 
   height: 100px; 
   background-color: gold; 
+  grid-column: 3/5;
+  grid-row: 3/5;
 } 
 .blue2 {
   width: 100px; 
   height: 100px; 
-  background-color: blue; 
+  background-color: blue;
+  grid-column: 4/5;
+  grid-row: 4/5; 
 } 
 /* Activity 3 styles */ 
 .content3 {
