@@ -251,13 +251,6 @@ footer .social img {
     width: 350px;
 }
 
-.Booking h1 {
-    color: #006ba6;
-}
-.rates-grid h2,p {
-    color:#ead2ac
-}
-
 .rates-grid {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
