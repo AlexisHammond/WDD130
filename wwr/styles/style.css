@@ -302,8 +302,10 @@ footer .social img {
     height: 250px;
     text-align: center;
 }
-.Booking h1 {
+.Booking h2 {
     color:#f4ffff;
+    font-size: 45px;
+    padding: 22px;
 }
 
 @media screen and (max-width: 900px) {
