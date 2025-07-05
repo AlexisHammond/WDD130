@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+    padding: 0 30px;
+    background-color: #0d3b66;
+}
+
+nav {
+    display: flex;
+    height: 100%;
+    align-items: stretch; /* ensure links stretch */
+    gap: 150px;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* stretch full height of nav */
+    padding: 0 20px;
+    text-decoration: none;
+    background-color: #0d3b66;
+    color: #9f7542;
+    font-family: "Courgette", "Raleway", Helvetica;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    background-color: #3993dd;
+    color: #fffcf2;
+}
+
+
+#logo_link {
+    display: flex;
+    align-items: center;
+}
+
+#logo_link img {
+    height: 100px;
+    width: auto;
+}
+
+body {
+    background-color: #fffcf2;
+}
+
+h1 {
+    Color: #0d3b66;
+    font-size: 45px;
+    font-family: "Courgette", "Raleway", Helvetica;
+}
+
+#hero-msg {
+    text-align: center;
+}
+
+#hero-img {
+    border: 10px solid #0d3b66; 
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    padding: 30px;
+}
+
+#Introduction-card {
+    background-color: #0d3b66;
+    width: 500px;
+    height: 130px;
+    padding: 10px;
+    color: #fffcf2;
+    font-size: large;
+    text-align: center;
+    margin: 60px auto 0 auto;
+    font-family: "Raleway", "Courgette", Helvetica;
+}
+
+#jewelry-card {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 60px;
+}
+
+#background-info-card {
+    background-color: #0d3b66;
+    width: 500px;
+    height: 200px;
+    padding: 10px;
+    color: #fffcf2;
+    font-size: large;
+    text-align: center;
+    font-family: "Raleway", "Courgette", Helvetica;
+    margin-left: 280px;
+}
+
+#purpose-info-card {
+    background-color: #0d3b66;
+    width: 500px;
+    height: 200px;
+    padding: 10px;
+    color: #fffcf2;
+    font-size: large;
+    text-align: center;
+    font-family: "Raleway", "Courgette", Helvetica;
+    margin-top: 30px;
+    margin-left: 450px;
+}
+
+h2 {
+    Color: #0d3b66;
+    font-size: 35px;
+    font-family: "Courgette", "Raleway", Helvetica;
+}
+
+#get-started-msg {
+    text-align: center;
+    margin-top: 60px;
+}
+
+#get-started-msg a {
+    background-color: #0d3b66;
+    color:#9f7542;
+    text-decoration: none;
+    font-family: "Raleway", "Courgette", Helvetica;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+#get-started-msg a:hover {
+    background-color: #3993dd;
+    color: #fffcf2;
+}
+
+#footer-logo {
+    display: block;
+    margin: auto;
+    height: 150px;
+}
+
+footer {
+    background-color: #0d3b66;
+    color: #fffcf2;
+    padding: 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: center;
+}
+
+
+footer p {
+    margin: 5px 0;
+    flex: 1 1 200px;
+    font-size: medium;
+    font-family: "Raleway", "Courgette", Helvetica;
+
+}
+
+footer a {
+    color: #fffcf2;
+    text-decoration: none;
+    font-size: medium;
+    font-family: "Raleway", "Courgette", Helvetica;
+
+}
+
+footer a:hover {
+    color: #9f7542;
+}
+
+.social {
+    flex: 1 1 200px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social img {
+    width: 40px;
+    height: 40px;
+}
