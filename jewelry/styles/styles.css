@@ -53,6 +53,7 @@ h1 {
     Color: #0d3b66;
     font-size: 45px;
     font-family: "Courgette", "Raleway", Helvetica;
+    text-align: Center;
 }
 
 #hero-msg {
@@ -115,6 +116,7 @@ h2 {
     Color: #0d3b66;
     font-size: 35px;
     font-family: "Courgette", "Raleway", Helvetica;
+    text-align: center;
 }
 
 #get-started-msg {
@@ -221,4 +223,114 @@ footer a:hover {
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+
+#desc p {
+    text-align: center;
+    font-family: "Raleway", "Courgette", Helvetica;
+    color:#0d3b66;
+}
+
+#tools-grid {
+    display: grid;
+    grid-template-rows: 500px 500px;
+}
+
+#Round-nose {
+    background-color: #0d3b66;
+    width: 300px;
+    height: 350px;
+    padding-top: 30px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 275px;
+    grid-row: 1;
+}
+
+#Needle-nose {
+    background-color: #0d3b66;
+    width: 300px;
+    height: 350px;
+    padding-top: 30px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: 275px;
+    grid-row: 1;
+}
+
+#three-in-one {
+    background-color: #0d3b66;
+    width: 300px;
+    height: 470px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 275px;
+    grid-row: 2;
+}
+
+#three-in-one img {
+    padding-top: 40px;
+}
+
+#wire-cutters {
+    background-color: #0d3b66;
+    width: 300px;
+    height: 450px;
+    padding-top: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 275px;
+    grid-row: 2;
+}
+#Chain-and-Wire {
+    background-color: #0d3b66;
+    width: 75%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    padding: 20px;
+    align-items: stretch; /* stretch both cells to match */
+}
+
+#Chain-and-Wire img {
+    width: 100%;
+    height: auto;
+    align-self: start;
+}
+
+.text-content {
+    height: 100%; /* make sure it fills grid cell height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* NOW vertical centering works */
+    gap: 30px;
+    color: white;
+}
+
+.text-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+}
+
+.links a {
+    background-color: white;
+    color: #0d3b66;
+    padding: 6px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #0d3b66;
+    transition: background-color 0.3s;
+}
+
+.links a:hover {
+    background-color: #add8e6;
 }
