@@ -12,7 +12,7 @@ header {
 nav {
     display: flex;
     height: 100%;
-    align-items: stretch; /* ensure links stretch */
+    align-items: stretch;
     gap: 150px;
 }
 
@@ -20,7 +20,7 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%; /* stretch full height of nav */
+    height: 100%;
     padding: 0 20px;
     text-decoration: none;
     background-color: #0d3b66;
@@ -215,8 +215,8 @@ footer a:hover {
 }
 
 .main {
-  margin-left: 140px; /* Same width as the sidebar + left position in px */
-  font-size: 28px; /* Increased text to enable scrolling */
+  margin-left: 140px;
+  font-size: 28px;
   padding: 0px 10px;
 }
 
@@ -225,21 +225,26 @@ footer a:hover {
   .sidenav a {font-size: 18px;}
 }
 
-#desc p {
-    text-align: center;
-    font-family: "Raleway", "Courgette", Helvetica;
-    color:#0d3b66;
-}
 
 #tools-grid {
     display: grid;
     grid-template-rows: 500px 500px;
 }
 
+h3 {
+    color: #fffcf2;
+    font-family: "Courgette", "Raleway", Helvetica;
+}
+
+p {
+    color: #fffcf2;
+    font-family: "Raleway", "Courgette", Helvetica;
+}
+
 #Round-nose {
     background-color: #0d3b66;
     width: 300px;
-    height: 350px;
+    height: 375px;
     padding-top: 30px;
     text-align: center;
     margin-top: 30px;
@@ -250,7 +255,7 @@ footer a:hover {
 #Needle-nose {
     background-color: #0d3b66;
     width: 300px;
-    height: 350px;
+    height: 375px;
     padding-top: 30px;
     text-align: center;
     margin-top: 30px;
@@ -262,7 +267,7 @@ footer a:hover {
 #three-in-one {
     background-color: #0d3b66;
     width: 300px;
-    height: 470px;
+    height: 500px;
     text-align: center;
     margin-top: 20px;
     margin-left: 275px;
@@ -276,7 +281,7 @@ footer a:hover {
 #wire-cutters {
     background-color: #0d3b66;
     width: 300px;
-    height: 450px;
+    height: 480px;
     padding-top: 20px;
     text-align: center;
     margin-top: 20px;
@@ -284,6 +289,8 @@ footer a:hover {
     margin-right: 275px;
     grid-row: 2;
 }
+
+
 #Chain-and-Wire {
     background-color: #0d3b66;
     width: 75%;
@@ -291,7 +298,9 @@ footer a:hover {
     grid-template-columns: 1fr 2fr;
     gap: 20px;
     padding: 20px;
-    align-items: stretch; /* stretch both cells to match */
+    align-items: stretch;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #Chain-and-Wire img {
@@ -301,36 +310,143 @@ footer a:hover {
 }
 
 .text-content {
-    height: 100%; /* make sure it fills grid cell height */
+    height: 100%; 
     display: flex;
     flex-direction: column;
-    justify-content: center; /* NOW vertical centering works */
-    gap: 30px;
-    color: white;
+    justify-content: center;
+    gap: 10px;
+    color: #fffcf2;
+    text-align: center;
 }
 
 .text-section {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    text-align: center;
 }
 
 .links {
     display: flex;
     gap: 10px;
+    justify-content: center;
 }
 
 .links a {
-    background-color: white;
-    color: #0d3b66;
+    background-color: #9f7542;
+    color: #fffcf2;
     padding: 6px 12px;
     border-radius: 4px;
     text-decoration: none;
     font-weight: bold;
     border: 1px solid #0d3b66;
-    transition: background-color 0.3s;
+    justify-content: center;
 }
 
 .links a:hover {
-    background-color: #add8e6;
+    background-color: #3993dd;
+}
+
+#jump-rings {
+    background-color: #0d3b66;
+    width: 75%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    padding: 20px;
+    align-items: stretch;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+#jump-rings img {
+    width: 100%;
+    height: auto;
+    align-self: start;
+}
+
+#lobster-clasps {
+    background-color: #0d3b66;
+    width: 75%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    padding: 20px;
+    align-items: stretch;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+#lobster-clasps img {
+    width: 100%;
+    height: auto;
+    align-self: start;
+}
+
+#pins {
+    background-color: #0d3b66;
+    width: 75%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    padding: 20px;
+    align-items: stretch;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+#pins img {
+    width: 100%;
+    height: auto;
+    align-self: start;
+}
+
+#fishhooks {
+    background-color: #0d3b66;
+    width: 75%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    padding: 20px;
+    align-items: stretch;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+#fishhooks img {
+    width: 100%;
+    height: auto;
+    align-self: start;
+}
+
+.materials-header {
+    margin: 80px auto;
+    text-align: center;
+}
+
+.materials-header h2 {
+    margin-bottom: 20px;
+}
+
+.materials-header p {
+    color: #0d3b66;
+    font-family: "Raleway", "Courgette", Helvetica;
+}
+
+#tip-msg {
+    width: 50%;
+    height: 100px;
+    background-color: #0d3b66;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
