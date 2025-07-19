@@ -341,6 +341,7 @@ p {
     font-weight: bold;
     border: 1px solid #0d3b66;
     justify-content: center;
+    font-family: "Raleway", "Courgette", Helvetica;
 }
 
 .links a:hover {
