@@ -450,3 +450,155 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+#materials-list {
+    background-color: #0d3b66;
+    width: 30%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#materials-img img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+#get-started-intro p {
+    color:#0d3b66;
+    text-align: center;
+}
+
+#step1 {
+    background-color: #0d3b66;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    padding: 20px;
+    align-items: stretch;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+#step1 img {
+    width: 100%;
+    height: auto;
+    align-self: start;
+}
+
+#step2 {
+    background-color: #0d3b66;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    padding: 20px;
+    align-items: stretch;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+#step2 img {
+    width: 100%;
+    height: auto;
+    align-self: start;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#step3 {
+    background-color: #0d3b66;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    padding: 20px;
+    align-items: stretch;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+#step3 img {
+    width: 100%;
+    height: auto;
+    align-self: start;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#step4 {
+    background-color: #0d3b66;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    padding: 20px;
+    align-items: stretch;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+#step4 img {
+    width: 100%;
+    height: auto;
+    align-self: start;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#step5 {
+    background-color: #0d3b66;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    padding: 20px;
+    align-items: stretch;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+#step5 img {
+    width: 100%;
+    height: auto;
+    align-self: start;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#step6 {
+    background-color: #0d3b66;
+    width: 30%;
+    gap: 20px;
+    padding: 20px;
+    align-items: stretch;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#finished-img img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#finished-msg h3{
+    color:#0d3b66;
+    text-align: center;
+}
